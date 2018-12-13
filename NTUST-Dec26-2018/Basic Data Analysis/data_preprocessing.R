@@ -77,23 +77,3 @@ top10_causes=sig_cause[1:10,]   # Most common top 10 causes in each country, not
 # select out significant cause of death
 top10_causes_dt=subset(perc_dt, cause_name %in% rownames(top10_causes), )
 
-a=aggregate(top10_causes_dt, 
-            by=list(regions, perc), FUN=mean)
-ggplot(top10_causes_dt, aes(cause_name, country)) +
-  geom_tile(aes(fill = perc), colour = "white") +
-  scale_fill_gradient(low = "white", high="steelblue")
-
-
-p <- ggplot(nba.m, aes(variable, Name)) + 
-  geom_tile(aes(fill = perc),
-          +     colour = "white") + 
- scale_fill_gradient(low = "white",
-                                          +     high = "steelblue"))                                                                           +     high = "steelblue"))
-
-# select Far East Asian Country
-
-# plot heatmap
-
-
-save(cause_death_model, 
-     sig_cause, 'significant_cause_of_death.Rdata')
