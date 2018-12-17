@@ -4,6 +4,8 @@ library(tidyverse)
 setwd('NTUST-Dec26-2018')
 load('data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
 
+
+
 # head and tail
 
 # perform PCA
