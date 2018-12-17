@@ -54,21 +54,13 @@ top10_region_heatmap=ggplot(top10_cause_by_region, aes(cause_name, region)) +
    scale_fill_gradient(low = "white", high="blue")+   # tile coloring
    theme(axis.text.x=element_text(angle=60, hjust=1)) # rotate x-label to vertical
 
+# Save heatmap into a file in png format
 ggsave(file="results/top10_region_heatmap.png", 
-       width=4, height=5, units='in',
+       width=4, height=5, units='in', # define dimension of the png 
        plot=top10_region_heatmap)
-# 
-# 
-# p <- ggplot(nba.m, aes(variable, Name)) + 
-#   geom_tile(aes(fill = perc),
-#             +     colour = "white") + 
-#   scale_fill_gradient(low = "white",
-#                       +     high = "steelblue"))                                                                           +     high = "steelblue"))
-# 
-# # select Far East Asian Country
-# 
-# # plot heatmap
-# 
 
-save(cause_death_model, 
-     sig_cause, 'results/significant_cause_of_death.Rdata')
+# Save important variables for future analysis
+save(cause_death_model,
+     top10_causes,
+     top10_cause_by_region, 
+     'results/significant_cause_of_death.Rdata')
