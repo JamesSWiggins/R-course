@@ -5,6 +5,10 @@ setwd('Basic Data Analysis')
 load('data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
 
 # head and tail
+head(raw_dt)
+head(matrix_dt)
+head(perc_dt)
+head(location_code)
 
 # perform PCA
 pca=princomp(matrix_dt)  # compute PCA
