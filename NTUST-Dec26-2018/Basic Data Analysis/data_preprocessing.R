@@ -6,14 +6,12 @@ library(readxl)
 # convert the table into a matrix of percentage
 # 
 
-setwd('NTUST-Dec26-2018')
 raw_dt=read.csv('data/IHME-GBD_2017_DATA/IHME_GBD_2017_DATA.csv')
 location_code=read_xlsx('data/IHME-GBD_2017_DATA/IHME_GBD_2017_GBD_LOCATIONS_HIERARCHY.XLSX')
 raw_location=merge(raw_dt, location_code, by='location_id')
 raw_location=merge(raw_location, location_code,
                    by.x='parent_id',
                    by.y='location_id')
-
 
 perc_dt=subset(raw_location, metric_id==2, select=c('measure_name', 
                                               'location_name.x',
