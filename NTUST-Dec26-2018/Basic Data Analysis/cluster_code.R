@@ -1,10 +1,8 @@
 library(reshape2)
 library(tidyverse)
 
-setwd('NTUST-Dec26-2018')
+setwd('Basic Data Analysis')
 load('data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
-
-
 
 # head and tail
 
@@ -41,12 +39,24 @@ top10_causes=sig_cause[1:10,]   # Most common top 10 causes in each country, not
 # select out significant cause of death
 top10_causes_dt=subset(perc_dt, cause_name %in% rownames(top10_causes))
 
-# 
-# a=aggregate(top10_causes_dt, 
-#             by=list(regions, perc), FUN=mean)
-# ggplot(top10_causes_dt, aes(cause_name, country)) +
-#   geom_tile(aes(fill = perc), colour = "white") +
-#   scale_fill_gradient(low = "white", high="steelblue")
+
+
+# Heatmap for top10 cause in different world region
+top10_cause_by_region=aggregate(top10_causes_dt, 
+            by=list(top10_causes_dt$region,
+                    top10_causes_dt$cause_name), FUN=mean)[,c('Group.1', 'Group.2', 'perc')]
+colnames(top10_cause_by_region)=c("region",'cause_name', 'perc')
+top10_cause_by_region$cause_name<- factor(top10_cause_by_region$cause_name, # order the cause in plot based on top 10 order 
+                      levels=rownames(top10_causes))
+  
+top10_region_heatmap=ggplot(top10_cause_by_region, aes(cause_name, region)) +
+   geom_tile(aes(fill = perc), colour = "white") +    # tile setup
+   scale_fill_gradient(low = "white", high="blue")+   # tile coloring
+   theme(axis.text.x=element_text(angle=60, hjust=1)) # rotate x-label to vertical
+
+ggsave(file="results/top10_region_heatmap.png", 
+       width=4, height=5, units='in',
+       plot=top10_region_heatmap)
 # 
 # 
 # p <- ggplot(nba.m, aes(variable, Name)) + 
@@ -61,4 +71,4 @@ top10_causes_dt=subset(perc_dt, cause_name %in% rownames(top10_causes))
 # 
 
 save(cause_death_model, 
-     sig_cause, 'significant_cause_of_death.Rdata')
+     sig_cause, 'results/significant_cause_of_death.Rdata')
