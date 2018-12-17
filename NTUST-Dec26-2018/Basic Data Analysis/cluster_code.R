@@ -1,10 +1,10 @@
-
-
 library(reshape2)
 library(tidyverse)
 
 setwd('NTUST-Dec26-2018')
 load('data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
+
+
 
 # head and tail
 
@@ -29,12 +29,6 @@ hctree=hclust(dist(matrix_dt, method='euclidean'))
 par(mar=c(3,1,1,15)) 
 plot(as.dendrogram(hctree), horiz=T)
 dev.off()
-
-# define clusters
-clust_groups=cutree(hctree, k=5)
-table(clust_groups)
-clust_groups[cluster_groups==5]
-
 
 # linear regression for location_name with death perc
 cause_death_model=glm(perc~cause_name, data=perc_dt)
