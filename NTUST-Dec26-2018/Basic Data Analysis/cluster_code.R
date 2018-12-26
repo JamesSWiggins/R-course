@@ -67,4 +67,4 @@ ggsave(file="results/top10_region_heatmap.png",
 save(cause_death_model,
      top10_causes,
      top10_cause_by_region, 
-     'results/significant_cause_of_death.Rdata')
+     file='results/significant_cause_of_death.Rdata')
