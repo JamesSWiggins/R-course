@@ -2,7 +2,7 @@ if(!require("reshape2", character.only=T)){install.packages("reshape2"); library
 if(!require("tidyverse", character.only=T)){install.packages("tidyverse"); library(tidyverse)}
 
 #setwd('Dec26-2018/Basic Data Analysis')
-load('../data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
+load('data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
 
 # head and tail
 head(raw_dt)
