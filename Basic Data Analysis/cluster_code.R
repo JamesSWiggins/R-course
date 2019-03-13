@@ -10,7 +10,7 @@ head(matrix_dt)
 head(perc_dt)
 head(location_code)
 
-
+# create results directory if it is not present
 dir.create('results', showWarnings = FALSE)
 
 # perform PCA
