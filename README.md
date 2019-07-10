@@ -2,7 +2,7 @@
 
 This repository provides simple introdcution to R
 
-[![cloudformation-launch-stack](images/launchstack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=OHDSI&templateURL=https://s3.amazonaws.com/ohdsi-rstudio/others/rstudio-sslv4.yaml)
+[![cloudformation-launch-stack](images/launchstack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=RStudio&templateURL=https://s3.amazonaws.com/ohdsi-rstudio/others/rstudio-sslv4.yaml)
 
 ## Basic Data Analysis
 
