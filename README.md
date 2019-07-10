@@ -2,6 +2,8 @@
 
 This repository provides simple introdcution to R
 
+[![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=OHDSI&templateURL=https://s3.amazonaws.com/ohdsi-rstudio/others/rstudio-sslv4.yaml)
+
 ## Basic Data Analysis
 
 This section performs clustering analysis on a simple cause of death data set to identify top10 cause of death by country and summarize by region.  
