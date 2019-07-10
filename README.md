@@ -1,4 +1,4 @@
-# Introduction to R
+# Introduction to RStudio on AWS
 
 This repository provides simple introdcution to R
 
