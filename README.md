@@ -12,7 +12,7 @@ This repository provides simple introdcution to R
 3. After 5 minutes, follow the link in the **Outputs** tab of your AWS CloudForamtion Stack to access RStudio.
 4. Accept the warning from your browser about the certificate being self-signed.  This gives us encrypted, HTTPS access to RStudio without purchasing a domain name or SSL certificate.
 5. Login to RStudio using the credentials you provided to the AWS CloudFormation template, and **click the Terminal tab**.
-6. Run the command **git clone https://github.com/JamesSWiggins/R-course**
+6. Run the command `git clone https://github.com/JamesSWiggins/R-course`
 7. Open the file **R-course/Basic Data Analysis/cluster_code.R**
 8. Run each line of the R program
 9. Open the **results** directory and view the images output by the analysis we just ran.  A description of the analysis and dataset is below.
