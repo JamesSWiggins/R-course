@@ -5,7 +5,9 @@ This repository provides simple introdcution to R
 [![cloudformation-launch-stack](images/launchstack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=RStudio&templateURL=https://s3.amazonaws.com/ohdsi-rstudio/others/rstudio-sslv4.yaml)
 
 ### Instructions
-1. Launch the AWS CloudFormation in your AWS account using the **Launch Stack** button above.
+1. Launch the AWS CloudFormation in your AWS account using the **Launch Stack** button above.  
+    a. For the VPCId parameter, use your Default VPC (172.31.0.0/16)
+    b. For the VPCSubnet parameter, choose a subnet within the Default VPC (172.31.0.0/20)
 2. Once the stack says **CREATE_COMPLETE**, it takes about 5 additional minutes for the RStudio Server to become availabile.
 3. After 5 minutes, follow the link in the **Outputs** tab of your AWS CloudForamtion Stack to access RStudio.
 4. Accept the warning from your browser about the certificate being self-signed.  This gives us encrypted, HTTPS access to RStudio without purchasing a domain name or SSL certificate.
