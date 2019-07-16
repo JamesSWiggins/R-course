@@ -21,8 +21,8 @@ This repository provides simple introdcution to R
 
 Copy your results to a bucket in S3
 1. Go back to the **Terminal tab** and change directories into the **results** directory ```cd "R-Course/Basic Data Analysis/results/"```
-2. Make a bucket in S3 to store your results with your initials in the name ```aws s3 mb s3://myRresultsJSW```
-3. Copy your results into the bucket ```aws s3 cp . s3://myRresultsJSW --recursive```
+2. Make a bucket in S3 to store your results with your initials in the name ```aws s3 mb s3://myrresultsjsw```
+3. Copy your results into the bucket ```aws s3 cp . s3://myrresultsjsw --recursive```
 4. Open the [S3 Management Console](https://s3.console.aws.amazon.com/s3/) and view your results safely stored in S3.
 
 
