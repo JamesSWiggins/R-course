@@ -1,7 +1,7 @@
 if(!require("reshape2", character.only=T)){install.packages("reshape2"); library(reshape2)}
 if(!require("tidyverse", character.only=T)){install.packages("tidyverse"); library(tidyverse)}
 
-setwd('~/R-course/Basic Data Analysis')
+setwd('~/R-Course/Basic Data Analysis')
 load('data/IHME_GBD_2017_PreProcessed_DataSets.Rdata')
 
 # head and tail
