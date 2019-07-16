@@ -18,6 +18,7 @@ This repository provides simple introdcution to R
 9. Open the **results** directory and view the images output by the analysis we just ran.  A description of the analysis and dataset is below.
 
 **Bonus**
+
 Copy your results to a bucket in S3
 1. Go back to the **Terminal tab** and change directories into the **results** directory ```cd R-course/Basic Data Analysis/results/```
 2. Make a bucket in S3 to store your results with your initials in the name ```aws s3 mb s3://myRresultsJSW```
