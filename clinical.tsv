@@ -1,0 +1,145 @@
+submitter_id	primary_diagnosis	tumor_stage	days_to_death
+TCGA-GM-A2D9	Infiltrating duct carcinoma, NOS	stage i	1812.0
+TCGA-B6-A0IB	Infiltrating duct carcinoma, NOS	stage iv	3941.0
+TCGA-AQ-A7U7	Lobular carcinoma, NOS	stage iiia	584.0
+TCGA-GM-A2DA	Infiltrating duct carcinoma, NOS	stage iib	6593.0
+TCGA-AC-A2FM	Lobular carcinoma, NOS	stage iib	792.0
+TCGA-BH-A1FL	Infiltrating duct carcinoma, NOS	stage iib	1673.0
+TCGA-BH-A18K	Infiltrating duct carcinoma, NOS	stage i	2763.0
+TCGA-BH-A1FJ	Infiltrating duct carcinoma, NOS	stage iiia	1927.0
+TCGA-A7-A13E	Infiltrating duct carcinoma, NOS	stage iib	614.0
+TCGA-A2-A0SW	Infiltrating duct carcinoma, NOS	stage iv	1365.0
+TCGA-BH-A1ET	Infiltrating duct carcinoma, NOS	stage i	2520.0
+TCGA-BH-A18J	Infiltrating duct carcinoma, NOS	stage iv	612.0
+TCGA-AR-A2LK	Lobular carcinoma, NOS	stage iii	1649.0
+TCGA-B6-A0WS	Infiltrating duct carcinoma, NOS	stage x	2965.0
+TCGA-B6-A0WY	Infiltrating duct carcinoma, NOS	stage iiia	3461.0
+TCGA-AR-A256	Infiltrating duct carcinoma, NOS	stage iia	2854.0
+TCGA-B6-A0X5	Infiltrating duct carcinoma, NOS	stage iib	2097.0
+TCGA-B6-A3ZX	Infiltrating duct and lobular carcinoma	stage iv	1152.0
+TCGA-A2-A3XS	Infiltrating duct carcinoma, NOS	stage iiia	1032.0
+TCGA-BH-A18L	Infiltrating duct carcinoma, NOS	stage iiia	811.0
+TCGA-E2-A1B4	Infiltrating duct carcinoma, NOS	stage iiia	1004.0
+TCGA-B6-A0WV	Infiltrating duct carcinoma, NOS	stage iib	2417.0
+TCGA-BH-A18P	Infiltrating duct carcinoma, NOS	stage i	921.0
+TCGA-BH-A18R	Infiltrating duct carcinoma, NOS	stage iia	1142.0
+TCGA-E9-A226	Infiltrating duct carcinoma, NOS	stage iiia	1048.0
+TCGA-E9-A1N6	Infiltrating duct carcinoma, NOS	stage iib	678.0
+TCGA-E9-A1RB	Infiltrating duct carcinoma, NOS	stage iia	976.0
+TCGA-BH-A1FN	Infiltrating duct carcinoma, NOS	stage iia	2192.0
+TCGA-AR-A24L	Infiltrating duct carcinoma, NOS	stage iib	2866.0
+TCGA-BH-A1EX	Infiltrating duct carcinoma, NOS	stage iib	1508.0
+TCGA-A2-A0YT	Infiltrating duct carcinoma, NOS	stage iiib	723.0
+TCGA-B6-A0IM	Infiltrating duct mixed with other types of carcinoma	stage iib	3873.0
+TCGA-BH-A42T	Lobular carcinoma, NOS	stage iia	320.0
+TCGA-B6-A0RP	Infiltrating duct and lobular carcinoma	not reported	3126.0
+TCGA-A2-A3XX	Infiltrating duct carcinoma, NOS	stage iia	1439.0
+TCGA-B6-A0RQ	Lobular carcinoma, NOS	stage iib	4267.0
+TCGA-B6-A0I9	Infiltrating duct carcinoma, NOS	stage iv	362.0
+TCGA-A2-A3XY	Infiltrating duct carcinoma, NOS	stage iib	1093.0
+TCGA-D8-A1Y1	Infiltrating duct carcinoma, NOS	stage iiia	302.0
+TCGA-E9-A1NG	Infiltrating duct carcinoma, NOS	stage iia	786.0
+TCGA-AC-A23H	Infiltrating duct carcinoma, NOS	stage iia	174.0
+TCGA-AC-A2FE	Lobular carcinoma, NOS	stage iiic	2636.0
+TCGA-B6-A0I6	Infiltrating duct carcinoma, NOS	stage iia	991.0
+TCGA-BH-A1F2	Paget disease and infiltrating duct carcinoma of breast	stage iiib	959.0
+TCGA-B6-A0RM	Infiltrating duct carcinoma, NOS	stage x	2373.0
+TCGA-AO-A03U	Secretory carcinoma of breast	stage i	1793.0
+TCGA-BH-A1F8	Infiltrating duct carcinoma, NOS	stage iiib	763.0
+TCGA-BH-A0EA	Infiltrating duct carcinoma, NOS	stage iia	991.0
+TCGA-BH-A1EY	Infiltrating duct carcinoma, NOS	stage iia	538.0
+TCGA-UU-A93S	Infiltrating duct carcinoma, NOS	stage iv	116.0
+TCGA-BH-A1FG	Infiltrating duct carcinoma, NOS	stage i	3736.0
+TCGA-E2-A1LK	Infiltrating duct carcinoma, NOS	stage iiic	266.0
+TCGA-AQ-A0Y5	Infiltrating duct carcinoma, NOS	stage iiia	172.0
+TCGA-B6-A0IN	Infiltrating duct mixed with other types of carcinoma	stage x	2573.0
+TCGA-A8-A06X	Infiltrating duct carcinoma, NOS	stage iib	943.0
+TCGA-B6-A0WW	Infiltrating duct carcinoma, NOS	stage x	558.0
+TCGA-BH-A1EV	Infiltrating duct carcinoma, NOS	stage iiia	365.0
+TCGA-B6-A0I1	Infiltrating duct carcinoma, NOS	stage iia	2361.0
+TCGA-BH-A209	Medullary carcinoma, NOS	stage i	3959.0
+TCGA-A8-A08L	Infiltrating duct carcinoma, NOS	stage iiia	304.0
+TCGA-B6-A0X7	Infiltrating duct carcinoma, NOS	stage x	1781.0
+TCGA-AO-A03P	Infiltrating duct carcinoma, NOS	stage iib	2911.0
+TCGA-A2-A0T2	Infiltrating duct carcinoma, NOS	stage iv	255.0
+TCGA-A2-A0EW	Lobular carcinoma, NOS	stage iiic	1884.0
+TCGA-BH-A18V	Infiltrating duct carcinoma, NOS	stage iib	1556.0
+TCGA-BH-A18M	Infiltrating duct carcinoma, NOS	stage iiia	2207.0
+TCGA-BH-A1FE	Infiltrating duct carcinoma, NOS	stage iib	2273.0
+TCGA-AR-A1AT	Lobular carcinoma, NOS	stage iia	1272.0
+TCGA-BH-A1F0	Infiltrating duct carcinoma, NOS	stage iia	785.0
+TCGA-A2-A0CU	Infiltrating duct carcinoma, NOS	stage iia	158.0
+TCGA-BH-A1ES	Infiltrating duct carcinoma, NOS	stage iib	3462.0
+TCGA-OL-A5D6	Infiltrating duct carcinoma, NOS	stage iia	1104.0
+TCGA-AR-A0TZ	Infiltrating duct carcinoma, NOS	not reported	3262.0
+TCGA-BH-A8FY	Lobular carcinoma, NOS	stage ia	295.0
+TCGA-BH-A1EW	Infiltrating duct carcinoma, NOS	stage iia	1694.0
+TCGA-A2-A04V	Infiltrating duct carcinoma, NOS	stage iia	1920.0
+TCGA-A8-A08T	Infiltrating duct carcinoma, NOS	stage iv	3409.0
+TCGA-E9-A1NF	Infiltrating duct and lobular carcinoma	stage iia	1072.0
+TCGA-EW-A1P8	Infiltrating duct carcinoma, NOS	stage iiic	239.0
+TCGA-BH-A18U	Infiltrating duct carcinoma, NOS	stage iiia	1563.0
+TCGA-BH-A1FH	Infiltrating duct carcinoma, NOS	stage iv	1034.0
+TCGA-E2-A14Z	Infiltrating duct carcinoma, NOS	stage i	563.0
+TCGA-E2-A1LE	Infiltrating duct carcinoma, NOS	stage iiic	879.0
+TCGA-BH-A1F6	Infiltrating duct carcinoma, NOS	not reported	2965.0
+TCGA-E2-A2P5	Lobular carcinoma, NOS	stage iiic	821.0
+TCGA-BH-A18S	Infiltrating duct mixed with other types of carcinoma	stage i	2009.0
+TCGA-B6-A0IC	Intraductal papillary adenocarcinoma with invasion	stage x	1542.0
+TCGA-B6-A0IG	Infiltrating duct carcinoma, NOS	stage iib	4456.0
+TCGA-A2-A04P	Infiltrating duct carcinoma, NOS	stage iiic	548.0
+TCGA-B6-A409	Infiltrating duct carcinoma, NOS	stage iiia	573.0
+TCGA-B6-A0RH	Infiltrating duct carcinoma, NOS	stage iia	6456.0
+TCGA-BH-A1FU	Infiltrating duct carcinoma, NOS	stage ia	1688.0
+TCGA-AO-A0J5	Infiltrating duct mixed with other types of carcinoma	stage iv	792.0
+TCGA-E2-A15M	Lobular carcinoma, NOS	stage iia	336.0
+TCGA-OL-A66K	Lobular carcinoma, NOS	stage iia	1275.0
+TCGA-HN-A2OB	Lobular carcinoma, NOS	stage iib	1900.0
+TCGA-C8-A12Q	Infiltrating duct carcinoma, NOS	stage iiia	385.0
+TCGA-BH-A1FM	Infiltrating duct carcinoma, NOS	stage iiia	1388.0
+TCGA-A8-A08J	Paget disease and infiltrating duct carcinoma of breast	stage iv	1127.0
+TCGA-AR-A0U2	Infiltrating duct carcinoma, NOS	stage iiia	2551.0
+TCGA-C8-A3M7	Lobular carcinoma, NOS	stage iiib	1034.0
+TCGA-AR-A0TY	Infiltrating duct carcinoma, NOS	stage iia	1699.0
+TCGA-B6-A0WX	Lobular carcinoma, NOS	stage iiia	639.0
+TCGA-B6-A0IK	Infiltrating duct carcinoma, NOS	stage iiib	571.0
+TCGA-E9-A245	Infiltrating duct carcinoma, NOS	stage iib	--
+TCGA-BH-A18T	Infiltrating duct carcinoma, NOS	stage iia	224.0
+TCGA-BH-A1EN	Infiltrating duct carcinoma, NOS	stage iia	2127.0
+TCGA-A2-A3XU	Infiltrating duct carcinoma, NOS	stage iib	912.0
+TCGA-B6-A0IH	Lobular carcinoma, NOS	stage iiia	3418.0
+TCGA-B6-A0RL	Infiltrating duct carcinoma, NOS	stage iia	2469.0
+TCGA-B6-A0RS	Infiltrating duct carcinoma, NOS	stage iia	3063.0
+TCGA-BH-A1FR	Infiltrating duct mixed with other types of carcinoma	stage iiib	1642.0
+TCGA-PE-A5DC	Lobular carcinoma, NOS	stage iiia	1430.0
+TCGA-B6-A0IP	Lobular carcinoma, NOS	stage ia	3926.0
+TCGA-BH-A18Q	Infiltrating duct carcinoma, NOS	stage iib	1692.0
+TCGA-BH-A204	Infiltrating duct carcinoma, NOS	stage iib	2534.0
+TCGA-BH-A1F5	Infiltrating duct carcinoma, NOS	stage iia	2712.0
+TCGA-A2-A0CO	Lobular carcinoma, NOS	stage iib	3492.0
+TCGA-BH-A0C1	Lobular carcinoma, NOS	stage iiia	1411.0
+TCGA-AR-A0TR	Infiltrating duct carcinoma, NOS	stage iib	160.0
+TCGA-BH-A203	Infiltrating duct carcinoma, NOS	stage iib	1174.0
+TCGA-BH-A1FD	Infiltrating duct carcinoma, NOS	stage i	1009.0
+TCGA-BH-A18N	Infiltrating duct carcinoma, NOS	stage iia	1148.0
+TCGA-BH-A0BF	Infiltrating duct carcinoma, NOS	stage iib	1324.0
+TCGA-BH-A1FB	Infiltrating duct carcinoma, NOS	stage iib	3669.0
+TCGA-BH-A1EU	Infiltrating duct carcinoma, NOS	stage i	1286.0
+TCGA-AR-A1AR	Infiltrating duct carcinoma, NOS	stage iiia	524.0
+TCGA-BH-A208	Infiltrating duct carcinoma, NOS	stage iib	1759.0
+TCGA-E9-A2JS	Lobular carcinoma, NOS	stage iib	904.0
+TCGA-A2-A0SV	Infiltrating duct carcinoma, NOS	stage iv	825.0
+TCGA-A8-A09X	Lobular carcinoma, NOS	stage iiic	426.0
+TCGA-BH-A1FC	Medullary carcinoma, NOS	stage iia	3472.0
+TCGA-BH-A0BP	Infiltrating duct carcinoma, NOS	stage i	2296.0
+TCGA-B6-A0X4	Infiltrating duct carcinoma, NOS	stage iib	860.0
+TCGA-A2-A0CS	Infiltrating duct carcinoma, NOS	stage iv	2348.0
+TCGA-B6-A0IE	Lobular carcinoma, NOS	stage iiia	1993.0
+TCGA-B6-A0X1	Infiltrating duct carcinoma, NOS	not reported	7455.0
+TCGA-BH-A1EO	Infiltrating duct and lobular carcinoma	stage iia	2798.0
+TCGA-A2-A0CM	Infiltrating duct carcinoma, NOS	stage iia	754.0
+TCGA-B6-A0I8	Infiltrating duct carcinoma, NOS	stage x	749.0
+TCGA-AR-A2LH	Lobular carcinoma, NOS	stage iii	616.0
+TCGA-AO-A03O	Infiltrating duct carcinoma, NOS	stage iia	2483.0
+TCGA-A8-A06U	Infiltrating duct carcinoma, NOS	stage iib	883.0
+TCGA-LL-A73Z	Infiltrating duct carcinoma, NOS	stage iv	227.0
